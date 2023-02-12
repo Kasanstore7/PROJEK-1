@@ -191,27 +191,29 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       break
     default:
       if (!/[01]/.test(command)) return m.reply(`
-List option:
-| welcome
-| delete
-| public
-| antilink
-| antidelete
-| antisticker
-| autosticker
-| autolevelup
-| detect
-| document
-| whitelistmycontacts
-| restrict
-| nyimak
-| autoread
-| pconly
-| gconly
-| swonly
-Contoh:
+┌─〔 ❖ Daftar Opsi ❖ 〕
+┊↬ welcome
+┊↬ delete
+┊↬ antilink
+┊↬ antidelete
+┊↬ antisticker
+┊↬ autosticker
+┊↬ autolevelup
+┊↬ detect
+│• public
+│• document
+│• whitelistmycontacts
+│• restrict
+│• nyimak
+│• autoread
+│• pconly
+│• gconly
+│• swonly
+┗━═┅═━––––––๑
+❏ Contoh:
 ${usedPrefix}enable welcome
 ${usedPrefix}disable welcome
+⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❙❘❚❙❘❙❙❘❙❚❙❙❘❙❚❙❘ ⌕
 `.trim())
       throw false
   }
