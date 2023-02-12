@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     let sel = `Silahkan Pilih Sub Menu Di Bawah Ini`
     let rs = `Click Here`
 const sections = [ {
-	title: `Pilih Salah Satu Menu `,
+	title: `Pilih Salah Satu Informasi `,
 	rows: [
 	   {title: `Speed`, rowId: `#speed `},//, description: ``},
         {title: `Speedtest`, rowId: `#speedtest `},//, description: ``},
