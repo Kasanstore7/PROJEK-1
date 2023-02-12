@@ -4,7 +4,7 @@ let handler = async (m, { conn, args }) => {
   if (!args[0]) throw 'Masukkan Text\nContoh : .flaming7 BOTCAHX'
   m.reply('_Proses..._')
   let res = `https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=0&backgroundColor=%23101820&text=${response[0]}`
-  conn.sendFile(m.chat, res, 'gura.jpg', `© BOTCAHX`, m, false)
+  conn.sendFile(m.chat, res, 'Saxia.jpg', `「 http://ẉ˘Saꭙࣼia.id 」`, m, false)
 }
 handler.help = ['flaming6'].map(v => v + ' <text>')
 handler.tags = ['maker']
