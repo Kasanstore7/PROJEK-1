@@ -3,7 +3,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 conn.sendImageAsSticker(m.chat, pickRandom(stikerhuuu), m, { packname: "sticker by", author: "Elyas" })
 }
 
-handler.customPrefix = /^(huuu)$/i
+handler.customPrefix = /^(huuu|stiker)$/i
 handler.command = new RegExp
 
 module.exports = handler
