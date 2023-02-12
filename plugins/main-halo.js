@@ -33,7 +33,7 @@ Runtime: ${uptime}`
     }
    conn.reply(m.chat, anu, ftroli) 
 }
-handler.customPrefix = /^bot$/i // ketik bot (tanpa prefix)
+handler.customPrefix = /^bot|p|hlo|hi|hai|ha|hy|hay|hallo|halo|hlo|haloh|hamlo|haye|xia$/i // ketik bot (tanpa prefix)
 handler.command = new RegExp
 handler.owner = false
 handler.mods = false
