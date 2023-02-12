@@ -4,10 +4,10 @@ conn,
 args 
 }) => {
    response = args.join(' ').split('|')
-  if (!args[0]) throw 'Masukkan Text\nContoh : . butterfly BOTCAHX'
+  if (!args[0]) throw 'Masukkan Text\nContoh : . butterfly SAXIA'
   m.reply('_Proses..._')
   var res = `https://api.botcahx.biz.id/api/photooxy/butterfly?text=${response[0]}&apikey=Admin`
-  conn.sendFile(m.chat, res, 'botcahx.jpg', `© BOTCAHX`, m, false)
+  conn.sendFile(m.chat, res, 'Saxia.jpg', `「 http://ẉ˘Saꭙࣼia.id 」`, m, false)
 }
 handler.help = ['butterfly'].map(v => v + ' <text>')
 handler.tags = ['photooxy']
