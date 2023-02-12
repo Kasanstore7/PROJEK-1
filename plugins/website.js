@@ -2,8 +2,8 @@ let handler = async m => {
 
 let krtu = `web`
 m.reply(`
-> http://ytdl.tiodevhost.my.id
-> http://botcahx.biz.id
+> http://bit.ly/SaxiaShop
+> 'gcbot
 `.trim()) 
 }
 handler.command = /^(web)$/i
