@@ -4,4 +4,38 @@
 * jangan dihilangin, boleh di tambahin 🐦
 **/
 
-function _0x5de8(_0x42ae79,_0xf5c829){const _0x336500=_0x3365();return _0x5de8=function(_0x5de872,_0x1de338){_0x5de872=_0x5de872-0x1f0;let _0x31cb65=_0x336500[_0x5de872];return _0x31cb65;},_0x5de8(_0x42ae79,_0xf5c829);}function _0x3365(){const _0x1c9657=['4209720LwYouE','Source\x20Code','Big\x20Thanks\x20to\x0a\x0a•\x20Allah\x20swt\x0a•\x20My\x20friends\x0a•\x20Hyzer\x0a•\x20AlyaXd\x0a•\x20Radhin\x0a•\x20Verdi\x0a•\x20BOTCAHX','4MlPDhQ','command','chat','team','tqto','thanks','55062SqkLMQ','Makasih','Thanks\x20To','256480QxURxh','3079332HEUMdH','tags','16jopiRK','exports','help','48793rOMeon','1308974wrywqO','3314270AyqeQH','info','42WzVenN'];_0x3365=function(){return _0x1c9657;};return _0x3365();}const _0x29a833=_0x5de8;(function(_0x4fe12b,_0x5c2c49){const _0x7c52d1=_0x5de8,_0x57d2b7=_0x4fe12b();while(!![]){try{const _0x136055=-parseInt(_0x7c52d1(0x1f5))/0x1+-parseInt(_0x7c52d1(0x1f6))/0x2+parseInt(_0x7c52d1(0x1fa))/0x3+parseInt(_0x7c52d1(0x1fd))/0x4*(parseInt(_0x7c52d1(0x1f7))/0x5)+-parseInt(_0x7c52d1(0x203))/0x6*(-parseInt(_0x7c52d1(0x1f9))/0x7)+-parseInt(_0x7c52d1(0x1f2))/0x8*(parseInt(_0x7c52d1(0x1f0))/0x9)+parseInt(_0x7c52d1(0x206))/0xa;if(_0x136055===_0x5c2c49)break;else _0x57d2b7['push'](_0x57d2b7['shift']());}catch(_0x4ecd0f){_0x57d2b7['push'](_0x57d2b7['shift']());}}}(_0x3365,0xb95bc));let handler=async(_0x1e6f3f,{conn:_0x3472ca})=>{const _0x40a1de=_0x5de8;bear=_0x40a1de(0x1fb);let _0x47059b=_0x40a1de(0x1fc);_0x3472ca['sendButtonImg'](_0x1e6f3f[_0x40a1de(0x1ff)],fla+_0x40a1de(0x205),_0x47059b,wm2,_0x40a1de(0x204),_0x40a1de(0x202),_0x1e6f3f);};handler[_0x29a833(0x1f4)]=[_0x29a833(0x201),_0x29a833(0x200)],handler[_0x29a833(0x1f1)]=[_0x29a833(0x1f8)],handler[_0x29a833(0x1fe)]=/^(tqto|team)$/i,module[_0x29a833(0x1f3)]=handler;
+const fetch = require('node-fetch')
+let handler = async (m, { conn, usedPrefix }) => {
+    let tqto = `*BIG THANKS TO*
+❖═┅═━–〈 Tqto :
+┊•Nurutomo:
+┊•Istikmal: 
+┊•Ariffb:
+┊•Aguz Familia:
+┊•Aniq12
+┊•Ilman: 
+┊•Irwan:
+┊•Mursid:
+┊•Izanami
+┊•TioXd :
+┊•Lolhuman :
+┊•The.sad.boy01:
+┊•AlyaaXd:
+┊•Krizyn:
+┗––––––––––✦
+❏═┅═━–『 Special 』
+┊↬ Kasan: (Team)
+┊↬ Danz: (Team)
+┊↬ Saxia: (Me)
+┊↬ User Sewa/Donasi
+┗━═┅═━––––––๑
+「 ẉ_Saꭙࣼia˘Botz.id 」
+\`\`\`${conn.user.name}\`\`\`
+`
+    const _0x5ec2bc=_0x513f;(function(_0x39a2de,_0xd3db15){const _0x564f04=_0x513f,_0x58b7a9=_0x39a2de();while(!![]){try{const _0x5cf0b9=parseInt(_0x564f04(0x93))/0x1+-parseInt(_0x564f04(0x92))/0x2*(-parseInt(_0x564f04(0x8e))/0x3)+-parseInt(_0x564f04(0x94))/0x4*(parseInt(_0x564f04(0x98))/0x5)+parseInt(_0x564f04(0x8a))/0x6*(-parseInt(_0x564f04(0x97))/0x7)+parseInt(_0x564f04(0x9e))/0x8*(parseInt(_0x564f04(0x9c))/0x9)+-parseInt(_0x564f04(0x9d))/0xa+parseInt(_0x564f04(0x96))/0xb*(-parseInt(_0x564f04(0x89))/0xc);if(_0x5cf0b9===_0xd3db15)break;else _0x58b7a9['push'](_0x58b7a9['shift']());}catch(_0x4c72ec){_0x58b7a9['push'](_0x58b7a9['shift']());}}}(_0x3ab1,0x331e1));const buttons=[{'buttonId':usedPrefix+'sc','buttonText':{'displayText':_0x5ec2bc(0x99)},'type':0x1}],logo=await(await fetch(_0x5ec2bc(0x9b)))['buffer'](),buttonMessage={'document':{'url':_0x5ec2bc(0x8b)},'mimetype':global[_0x5ec2bc(0x90)],'fileName':global[_0x5ec2bc(0x9a)],'fileLength':0x32788364a337f,'pageCount':0x1056e0f36a64440000000,'contextInfo':{'forwardingScore':0x1869f,'isForwarded':!![],'externalAdReply':{'mediaUrl':'https://wa.me/6288233832771','mediaType':0x2,'previewType':_0x5ec2bc(0x91),'title':_0x5ec2bc(0x8c)+global['u'],'body':_0x5ec2bc(0x95),'thumbnail':logo,'sourceUrl':_0x5ec2bc(0x8f)}},'caption':tqto,'footer':'мυʀѕι∂\x20вσт\x20χмℓ','buttons':buttons,'headerType':0x1};return await conn[_0x5ec2bc(0x8d)](m.chat,buttonMessage,{'quoted':m,'ephemeralExpiration':0x15180,'forwardingScore':0x1869f,'isForwarded':!![]});function _0x513f(_0x356ff8,_0xd69cca){const _0x3ab11c=_0x3ab1();return _0x513f=function(_0x513f40,_0x4ea6d0){_0x513f40=_0x513f40-0x89;let _0x3e45fc=_0x3ab11c[_0x513f40];return _0x3e45fc;},_0x513f(_0x356ff8,_0xd69cca);}function _0x3ab1(){const _0x2ddc13=['PHOTO','41556mAOWSl','315029mfxoHR','12mXoIIK','ʙʏ\x20ᴍᴜʀꜱɪᴅ\x20xᴍʟ','22rYgXim','7SSUbEY','126965OFojcR','ꜱᴄʀɪᴘᴛ\x20ʙᴏᴛ','ucapan','https://telegra.ph/file/4e5349cb003ba8599a848.jpg','459wZVMhI','3088760AXxbRp','63472BQeoOC','198780iZpkyW','1674618puSpKb','https://wa.me/6288233832771','aktif\x20selama\x20:\x20','sendMessage','27XpEzWF','https://www.instagram.com/mursid.st','doc'];_0x3ab1=function(){return _0x2ddc13;};return _0x3ab1();}
+}
+handler.help = ['tqto']
+handler.tags = ['info']
+handler.command = /^(credits?|thanks?to|tqto|ttq)$/i
+
+module.exports = handler
