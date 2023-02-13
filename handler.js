@@ -20,7 +20,7 @@ module.exports = {
             if (!m) return
             // console.log(m)
             m.exp = 0
-            m.limit = false
+            m.limit = true
             try {
                 let user = global.db.data.users[m.sender]
                 if (typeof user !== 'object') global.db.data.users[m.sender] = {}
@@ -264,7 +264,7 @@ module.exports = {
                     exp: 0,
                     coin: 0,
                     atm: 0,
-                    limit: 100,
+                    limit: 45,
                     tigame: 999,
                     lastclaim: 0,
                     money: 0,
@@ -435,7 +435,7 @@ module.exports = {
                     sPromote: '',
                     sDemote: '',
                     delete: true,
-                    antiLink: false,
+                    antiLink: true,
                     viewonce: false,
                     antiToxic: true,
                 }
@@ -637,8 +637,6 @@ module.exports = {
                             } catch (e) {
                                 console.error(e)
                             }
-                        }
-                        if (m.limit) m.reply(+ m.limit + ' Limit terpakai')
                     }
                     break
                 }
@@ -763,16 +761,16 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'Perintah ini hanya dapat digunakan oleh _*OWWNER!1!1!*_',
-        owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
-        mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
+        rowner: 'Perintah ini hanya dapat digunakan oleh _*Devloper*_ Xia',
+        owner: 'Perintah ini hanya dapat digunakan oleh _*Devloper*_ Xia',
+        mods: 'Perintah ini hanya dapat digunakan oleh _*Devloper*_  Xia!',
         premium: 'Perintah ini hanya untuk member _*Premium*_ !',
-        group: 'Perintah ini hanya dapat digunakan di grup!',
-        private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
+        group: 'Perintah ini hanya dapat digunakan di _*Grup*_!',
+        private: 'Perintah ini hanya dapat digunakan di _*Chat Pribadi*_!',
         admin: 'Perintah ini hanya untuk *Admin* grup!',
         botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Mansur.16*',
-        restrict: 'Fitur ini di *disable*!'
+        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Marcel.15*',
+        restrict: 'Fitur ini di _*disable*_!'
     }[type]
     if (msg) return m.reply(msg)
 }
