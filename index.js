@@ -41,4 +41,4 @@ function start(file) {
 	
 }
 
-start("main.js");
+start("main.md");
